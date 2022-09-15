@@ -37,4 +37,35 @@ def intermedio(num1, num2):
     intermedio = (num1 + num2) / 2
     return intermedio
 
-print(intermedio(10,24))    
+print(intermedio(10,24))  
+
+
+# Ejercicio 5 
+
+def recortar(num,inf,sup):
+    if (num > sup):
+        return sup
+    elif (num < inf):
+        return inf
+    else:
+        return num  
+
+print(recortar(5,2,10))  
+
+
+# Ejercicio 6
+
+lista = [1,2,3,4,5,6,7,8,9,10]
+
+listImp = []
+listPar = []
+def separar(dato):
+    for num in dato:
+        if num %2 == 0:
+            listPar.append(num)
+        else:
+            listImp.append(num)   
+
+separar(lista)
+print(f'Lista de pares: {listPar}')
+print(f'Lista de pares: {listImp}')
