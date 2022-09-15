@@ -20,7 +20,6 @@ print(area_circulo(5))
 
 # Ejercicio 3 
 
-
 def relacion(num1,num2):
     if (num1 > num2):
         return 1
@@ -29,4 +28,13 @@ def relacion(num1,num2):
     else:
         return 0
 
-print(relacion(1,2))                
+print(relacion(1,2))     
+
+
+# Ejercicio 4
+
+def intermedio(num1, num2):
+    intermedio = (num1 + num2) / 2
+    return intermedio
+
+print(intermedio(10,24))    
